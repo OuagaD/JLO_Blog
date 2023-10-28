@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Inria Serif', serif;
+    color: white;
+    /* font-family: 'MonteCarlo', cursive; */
+}
+a{
+    text-decoration: none;          
+}
+
+.headind{
+    height: 600px;
+    background-image: url('./img_library/linsaac-la-celebre-ecole-ivoirienne-des-arts-fait-peau-neuve.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.headind_cont{
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+}
+.headind_menu_1{
+    border-radius: 10px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 800px;
+}
+.headind_menu_2{
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    width: 250px;
+}
+.headind_menu_txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #9C66E1;
+    background-color: rgba(0, 0, 0, 0.701);
+    border-radius: 10px;
+    height: 30px;
+    width: 130px;
+    font-size: 1.3em;
+}
+.menhover:hover{
+    background-color: #9C66E1;
+    color: white;
+}
+.headind_menu_txt:hover{
+    background-color: #9C66E1;
+}
+.headind_menu_txt_ins{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #9C66E1;
+    background-color: rgba(0, 0, 0, 0.701);
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+}
+.headind_menu_txt_ins:hover{
+    background-color: #9C66E1;
+}
+.headind_menu_txt_conx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #9C66E1;
+    background-color: rgba(0, 0, 0, 0.701);
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+}
+.headind_menu_txt_conx:hover{
+    background-color: #9C66E1;
+}
+.headind_jlotxt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+.headind_jlotxt_art{
+    border: 2px solid #9C66E1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.701);
+    font-size: 1.5em;
+}
+
+.indpart1{
+    background-color: #B5CBEA;
+    
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.indpart1_pub{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500PX;
+    height: 300px;
+}
+.indpart1_pub_txt_title{
+    font-size: 4em;
+}
+.indpart1_pub_txt_text{
+    background-color: #83A1CD;
+    width: 480px;
+    height: 160px;
+    font-size: 1.8em;
+}
+.indpart1_tab{
+    position: relative;
+    width: 750px;
+    height: 500px;
+}
+.indpart1_tab1{
+    position: relative;
+    background-image: url('./img_library/peinture\ abstraite\ moderne\ bleue.jpg');
+    background-size: cover;
+    height: 270px;
+    width: 335px;
+    top: 20px;
+    left: 10px;
+}
+.indpart1_tab2{
+    position: relative;
+    background-image: url('./img_library/peinture-abstraite-moderne_2.jpg');
+    background-size: cover;
+    height: 260px;
+    width: 380px;
+    bottom: 90px;
+    left: 200px;
+}
+.indpart1_tab3{
+    position: relative;
+    background-image: url('./img_library/tableau-peinture-abstraite-lion.jpg');
+    background-size: cover;
+    height: 320px;
+    width: 280px;
+    bottom: 480px;
+    left: 450px;
+}
+.indpart2_cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 550px;
+}
+.indpart2_txt{
+    border: 3px solid #6B8CBD;
+    height: 65px;
+    width: 650px;
+    background-color: #B5CBEA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.1em;
+    border-radius: 25px;
+
+}
+.indpart2_cont_peint{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.indpart2_peint1{
+    border: 5px dashed #84A6DB;
+    height: 300px;
+    width: 380px;
+    background-image: url('./img_library/aboudia.jpg');
+    background-size: cover;
+}
+.indpart2_peint2{
+    border: 5px dashed #84A6DB;
+    height: 300px;
+    width: 380px;
+    background-image: url('./img_library/Sliue-Joachim.jpg');
+    background-size: cover;
+}
+.indpart2_peint3{
+    border: 5px dashed #84A6DB;
+    height: 300px;
+    width: 380px;
+    background-image: url('./img_library/Mounou-Desire.webp');
+    background-size: cover;
+}
+.indpart3{
+    background-color: red;
+    background-image: url('./img_library/b1a764e9529838ab8dabfa8a1228c3f449d8020625602a47d78d960da5cfaaa9.webp');
+    background-size: cover;
+    height: 1700px;
+}
+.indpart3_cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.indpart3_cont_txt{
+    font-family: 'Maiden Orange', serif;
+    font-size: 3em;
+}
+.indpart3_imgpart{
+     
+    height: 1500px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.indpart3_imgpart1{
+    border-radius: 25px;
+    height: 400px;
+    width: 1000px;
+    background-image: url('./img_library/ceremonie-d-inauguration-du-parc-des-expositions-d-abidjan-presidee-par-le-_0dlualhwne3w.jpeg');
+    background-size: cover;
+}
+.indpart3_imgpart2{
+    border-radius: 25px;
+    height: 400px;
+    width: 1000px;
+    background-image: url('./img_library/insaac.jpeg');
+    background-size: cover;
+}
+.indpart3_imgpart3{
+    border-radius: 25px;
+    height: 500px;
+    width: 1000px;
+    background-image: url('./img_library/MECI.png');
+    background-size: cover;
+}
+
+.foot_ind_cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    height: 150px;
+}
+.foot_ind_cont_txtcopcont{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2em;
+}
+.foot_ind_cont_rs{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 180px;
+    font-size: 1.2em;
+}
+.foot_ind_cont_rs_img{
+    display: flex;
+}
+.foot_ind_rs_img_insta{
+    background-image: url('./img_library/instagram\ \(2\).png');
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+}
+.foot_ind_rs_img_facebk{
+    background-image: url('./img_library/facebook\ \(1\).png');
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+}
+.foot_ind_rs_img_linked{
+    background-image: url('./img_library/linkedin.png');
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+}
