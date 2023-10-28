@@ -3,9 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maiden+Orange&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Inria+Serif&family=MonteCarlo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Index.html</title>
 </head>
 <body>
-    <h1>Blog</h1>
+    <header class="headind">
+        <nav class="headind_cont">
+            <ul class="headind_menu_2">
+                <li class="headind_menu_txt_ins"><a href="{{ url_for('inscript') }}" style="color: white;">Inscription</a></li>
+                <li class="headind_menu_txt_conx"><a href="{{ url_for('connex') }}" style="color: white;">Se connecter</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>JLO_Blog_</h1>
+    <div class="blogind_acc">
+        <div class="blogind_acc_img"></div>
+    </div>
+
 </body>
 </html>
